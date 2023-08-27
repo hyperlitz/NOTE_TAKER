@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve static assets
-app.use(express.static('Develop/public'));
+app.use(express.static(path.join(__dirname, 'Develop', 'public')));
 
 // HTML Routes
 app.get('/', (req, res) => {
