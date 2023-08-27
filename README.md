@@ -48,7 +48,7 @@ The Note Taker App is designed to help users organize their thoughts and keep tr
 ## Owner
 
 This project is developed and maintained by [Lolito Banano](https://github.com/hyperlitz).
-For any inquiries, please contact me at [lolitabanano@yahoo.com](mailto:lolitobanano@yahoo.com).
+For any inquiries, please contact me at [litobanano@yahoo.com](mailto:litobanano@yahoo.com).
 
 ## License
 
