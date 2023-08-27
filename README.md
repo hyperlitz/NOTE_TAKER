@@ -28,7 +28,7 @@ The Note Taker App is designed to help users organize their thoughts and keep tr
 ## Links
 
 - [Repository](https://github.com/hyperlitz/NOTE_TAKER)
-- [Live Application](https://your-app.herokuapp.com/)
+- [Live Application](https://lito-notes-70977c6f4043.herokuapp.com/)
 
 ## Installation
 
@@ -47,7 +47,7 @@ The Note Taker App is designed to help users organize their thoughts and keep tr
 
 ## Owner
 
-This project is developed and maintained by [Lolito Banano](https://github.com/your-username).
+This project is developed and maintained by [Lolito Banano](https://github.com/hyperlitz).
 For any inquiries, please contact me at [lolitabanano@yahoo.com](mailto:lolitobanano@yahoo.com).
 
 ## License
