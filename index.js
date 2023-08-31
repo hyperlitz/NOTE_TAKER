@@ -6,22 +6,22 @@ const { v4: uuidv4 } = require('uuid'); // Using the uuid library to generate un
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const notesFilePath = path.join(__dirname, 'Develop', 'db', 'db.json');
+const notesFilePath = path.join(__dirname,'db', 'db.json');
 
 // Middleware to parse JSON data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve static assets
-app.use(express.static(path.join(__dirname, 'Develop', 'public')));
+app.use(express.static(path.join(__dirname ,'public')));
 
 // HTML Routes
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Develop', 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, 'Develop', 'public', 'notes.html'));
+  res.sendFile(path.join(__dirname, 'public', 'notes.html'));
 });
 
 // API Routes
